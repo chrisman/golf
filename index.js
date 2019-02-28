@@ -1,0 +1,1 @@
+require('readline').createInterface({input:process.stdin}).on('line',l=>console.log(l.split('').map(x=>'AlfaBravoCharlieDeltaEchoFoxtrotGolfHotelIndiaJuliettKiloLimaMikeNovemberOscarPapaQuebecRomeoSierraTangoUniformVictorWhiskeyXrayYankeeZulu'.match(x.toUpperCase()+'[^A-Z]*')).map(a=>a[0])))
